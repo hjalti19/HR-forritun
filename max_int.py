@@ -6,4 +6,6 @@ while True:
     num_int = int(input("Input number: "))
     if num_int > Max_int:
         Max_int = num_int
+    if num_int < 0:
+        break
 print(Max_int)
